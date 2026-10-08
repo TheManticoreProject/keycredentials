@@ -8,11 +8,11 @@ import (
 	"github.com/TheManticoreProject/Manticore/logger"
 	"github.com/TheManticoreProject/Manticore/network/ldap"
 
-	"github.com/TheManticoreProject/manticore-keycredentials/certificate"
-	"github.com/TheManticoreProject/manticore-keycredentials/cli"
-	"github.com/TheManticoreProject/manticore-keycredentials/config"
-	"github.com/TheManticoreProject/manticore-keycredentials/keycredential"
-	"github.com/TheManticoreProject/manticore-keycredentials/utils"
+	"github.com/TheManticoreProject/keycredentials/certificate"
+	"github.com/TheManticoreProject/keycredentials/cli"
+	"github.com/TheManticoreProject/keycredentials/config"
+	"github.com/TheManticoreProject/keycredentials/keycredential"
+	"github.com/TheManticoreProject/keycredentials/utils"
 )
 
 // plan is what would change on one target object: the raw values matched for

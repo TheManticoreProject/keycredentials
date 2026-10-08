@@ -1,4 +1,4 @@
-module github.com/TheManticoreProject/manticore-keycredentials
+module github.com/TheManticoreProject/keycredentials
 
 go 1.24.0
 

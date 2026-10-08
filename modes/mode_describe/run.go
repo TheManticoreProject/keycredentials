@@ -7,9 +7,9 @@ import (
 	"github.com/TheManticoreProject/Manticore/logger"
 	"github.com/TheManticoreProject/Manticore/windows/keycredentiallink"
 
-	"github.com/TheManticoreProject/manticore-keycredentials/config"
-	"github.com/TheManticoreProject/manticore-keycredentials/keycredential"
-	"github.com/TheManticoreProject/manticore-keycredentials/utils"
+	"github.com/TheManticoreProject/keycredentials/config"
+	"github.com/TheManticoreProject/keycredentials/keycredential"
+	"github.com/TheManticoreProject/keycredentials/utils"
 )
 
 // timeLayout renders a credential's timestamps. The values are stored as UTC

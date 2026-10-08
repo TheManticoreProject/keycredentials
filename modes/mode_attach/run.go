@@ -14,11 +14,11 @@ import (
 	keycredential_utils "github.com/TheManticoreProject/Manticore/windows/keycredentiallink/utils"
 	"github.com/TheManticoreProject/Manticore/windows/keycredentiallink/version"
 
-	"github.com/TheManticoreProject/manticore-keycredentials/certificate"
-	"github.com/TheManticoreProject/manticore-keycredentials/cli"
-	"github.com/TheManticoreProject/manticore-keycredentials/config"
-	"github.com/TheManticoreProject/manticore-keycredentials/keycredential"
-	kcl_utils "github.com/TheManticoreProject/manticore-keycredentials/utils"
+	"github.com/TheManticoreProject/keycredentials/certificate"
+	"github.com/TheManticoreProject/keycredentials/cli"
+	"github.com/TheManticoreProject/keycredentials/config"
+	"github.com/TheManticoreProject/keycredentials/keycredential"
+	kcl_utils "github.com/TheManticoreProject/keycredentials/utils"
 )
 
 // Run attaches an existing certificate to one or more target objects as a
