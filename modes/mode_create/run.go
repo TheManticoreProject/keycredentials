@@ -10,8 +10,8 @@ import (
 	"github.com/TheManticoreProject/Manticore/logger"
 	"github.com/TheManticoreProject/Manticore/utils"
 
-	"github.com/TheManticoreProject/manticore-keycredentials/certificate"
-	"github.com/TheManticoreProject/manticore-keycredentials/config"
+	"github.com/TheManticoreProject/keycredentials/certificate"
+	"github.com/TheManticoreProject/keycredentials/config"
 )
 
 // adFlags are the flags create used to accept when it wrote to Active Directory.

@@ -5,9 +5,9 @@ import (
 
 	"github.com/TheManticoreProject/Manticore/logger"
 
-	"github.com/TheManticoreProject/manticore-keycredentials/cli"
-	"github.com/TheManticoreProject/manticore-keycredentials/config"
-	"github.com/TheManticoreProject/manticore-keycredentials/utils"
+	"github.com/TheManticoreProject/keycredentials/cli"
+	"github.com/TheManticoreProject/keycredentials/config"
+	"github.com/TheManticoreProject/keycredentials/utils"
 )
 
 // Run flushes the msDS-KeyCredentialLink attribute of a given user.

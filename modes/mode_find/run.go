@@ -7,10 +7,10 @@ import (
 	"github.com/TheManticoreProject/Manticore/logger"
 	ldapv3 "github.com/go-ldap/ldap/v3"
 
-	"github.com/TheManticoreProject/manticore-keycredentials/certificate"
-	"github.com/TheManticoreProject/manticore-keycredentials/config"
-	"github.com/TheManticoreProject/manticore-keycredentials/keycredential"
-	"github.com/TheManticoreProject/manticore-keycredentials/utils"
+	"github.com/TheManticoreProject/keycredentials/certificate"
+	"github.com/TheManticoreProject/keycredentials/config"
+	"github.com/TheManticoreProject/keycredentials/keycredential"
+	"github.com/TheManticoreProject/keycredentials/utils"
 )
 
 // match is one msDS-KeyCredentialLink entry whose key material is the key that was

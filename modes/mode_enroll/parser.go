@@ -6,7 +6,7 @@ import (
 	"github.com/TheManticoreProject/Manticore/logger"
 	"github.com/TheManticoreProject/goopts/parser"
 
-	"github.com/TheManticoreProject/manticore-keycredentials/cli"
+	"github.com/TheManticoreProject/keycredentials/cli"
 )
 
 func SetupSubParser(ap *parser.ArgumentsParser, debug *bool, targets *cli.TargetOptions, safety *cli.SafetyOptions, identifier *string, creationTime *string, lastLogonTime *string, notBeforeTime *string, notAfterTime *string, deviceId *string, keySize *int, exportPem *bool, exportPfx *bool, domainController *string, dcHost *string, ldapPort *int, useLdaps *bool, useKerberos *bool, dnsNameServer *string, authDomain *string, authUsername *string, authPassword *string, authHashes *string, authAesKey *string, authNoPass *bool, ticketCCache *string, ticketKirbi *string) {

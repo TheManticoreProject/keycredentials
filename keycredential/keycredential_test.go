@@ -25,8 +25,8 @@ import (
 	keycredential_utils "github.com/TheManticoreProject/Manticore/windows/keycredentiallink/utils"
 	"github.com/TheManticoreProject/Manticore/windows/keycredentiallink/version"
 
-	"github.com/TheManticoreProject/manticore-keycredentials/certificate"
-	"github.com/TheManticoreProject/manticore-keycredentials/keycredential"
+	"github.com/TheManticoreProject/keycredentials/certificate"
+	"github.com/TheManticoreProject/keycredentials/keycredential"
 )
 
 // testKey builds an RSA key and its self-signed certificate for the tests.

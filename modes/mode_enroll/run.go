@@ -15,10 +15,10 @@ import (
 	keycredential_utils "github.com/TheManticoreProject/Manticore/windows/keycredentiallink/utils"
 	"github.com/TheManticoreProject/Manticore/windows/keycredentiallink/version"
 
-	"github.com/TheManticoreProject/manticore-keycredentials/certificate"
-	"github.com/TheManticoreProject/manticore-keycredentials/cli"
-	"github.com/TheManticoreProject/manticore-keycredentials/config"
-	kcl_utils "github.com/TheManticoreProject/manticore-keycredentials/utils"
+	"github.com/TheManticoreProject/keycredentials/certificate"
+	"github.com/TheManticoreProject/keycredentials/cli"
+	"github.com/TheManticoreProject/keycredentials/config"
+	kcl_utils "github.com/TheManticoreProject/keycredentials/utils"
 )
 
 // EnrollOutputBaseDir is the directory enroll writes its per-run export directories

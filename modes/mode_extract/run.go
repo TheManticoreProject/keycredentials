@@ -8,9 +8,9 @@ import (
 	"github.com/TheManticoreProject/Manticore/logger"
 	"github.com/TheManticoreProject/Manticore/utils"
 
-	"github.com/TheManticoreProject/manticore-keycredentials/config"
-	"github.com/TheManticoreProject/manticore-keycredentials/keycredential"
-	kcl_utils "github.com/TheManticoreProject/manticore-keycredentials/utils"
+	"github.com/TheManticoreProject/keycredentials/config"
+	"github.com/TheManticoreProject/keycredentials/keycredential"
+	kcl_utils "github.com/TheManticoreProject/keycredentials/utils"
 )
 
 // Run extracts the public key of each certificate set on a target object.

@@ -3,9 +3,9 @@
 <p align="center">
       A tool to create, enroll, attach, describe, list, find, extract, remove, and flush shadow credentials (msDS-KeyCredentialLink entries, their RSA key material, and device IDs) on Active Directory accounts over LDAP.
       <br>
-      <a href="https://github.com/TheManticoreProject/manticore-keycredentials/actions/workflows/release.yaml" title="Build"><img alt="Build and Release" src="https://github.com/TheManticoreProject/manticore-keycredentials/actions/workflows/release.yaml/badge.svg"></a>
-      <img alt="GitHub release (latest by date)" src="https://img.shields.io/github/v/release/TheManticoreProject/manticore-keycredentials">
-      <img alt="Go Report Card" src="https://goreportcard.com/badge/github.com/TheManticoreProject/manticore-keycredentials">
+      <a href="https://github.com/TheManticoreProject/keycredentials/actions/workflows/release.yaml" title="Build"><img alt="Build and Release" src="https://github.com/TheManticoreProject/keycredentials/actions/workflows/release.yaml/badge.svg"></a>
+      <img alt="GitHub release (latest by date)" src="https://img.shields.io/github/v/release/TheManticoreProject/keycredentials">
+      <img alt="Go Report Card" src="https://goreportcard.com/badge/github.com/TheManticoreProject/keycredentials">
       <a href="https://twitter.com/intent/follow?screen_name=podalirius_" title="Follow"><img src="https://img.shields.io/twitter/follow/podalirius_?label=Podalirius&style=social"></a>
       <a href="https://www.youtube.com/c/Podalirius_?sub_confirmation=1" title="Subscribe"><img alt="YouTube Channel Subscribers" src="https://img.shields.io/youtube/channel/subscribers/UCF_x5O7CSfr82AfNVTKOv_A?style=social"></a>
       <br>
@@ -27,10 +27,10 @@
 
 ## Installation
 
-To get this tool you can either download the latest release from the [GitHub release page](https://github.com/TheManticoreProject/manticore-keycredentials/releases) or install it with the following `go` command:
+To get this tool you can either download the latest release from the [GitHub release page](https://github.com/TheManticoreProject/keycredentials/releases) or install it with the following `go` command:
 
 ```bash
-go install github.com/TheManticoreProject/manticore-keycredentials@latest
+go install github.com/TheManticoreProject/keycredentials@latest
 ```
 
 ## Usage
@@ -312,4 +312,4 @@ INFO: Removed 1 value(s) from 'CN=Administrator,CN=Users,DC=MANTICORE,DC=local'
 Pull requests are welcome. Feel free to open an issue if you want to add other features.
 
 ## Credits
-  - [Remi GASCOU (Podalirius)](https://github.com/p0dalirius) for the creation of the [manticore-keycredentials](https://github.com/TheManticoreProject/manticore-keycredentials) project.
+  - [Remi GASCOU (Podalirius)](https://github.com/p0dalirius) for the creation of the [manticore-keycredentials](https://github.com/TheManticoreProject/keycredentials) project.

@@ -6,9 +6,9 @@ import (
 	"github.com/TheManticoreProject/Manticore/logger"
 	ldapv3 "github.com/go-ldap/ldap/v3"
 
-	"github.com/TheManticoreProject/manticore-keycredentials/cli"
-	"github.com/TheManticoreProject/manticore-keycredentials/config"
-	"github.com/TheManticoreProject/manticore-keycredentials/utils"
+	"github.com/TheManticoreProject/keycredentials/cli"
+	"github.com/TheManticoreProject/keycredentials/config"
+	"github.com/TheManticoreProject/keycredentials/utils"
 )
 
 // Run lists the raw msDS-KeyCredentialLink values of one or more target objects.
